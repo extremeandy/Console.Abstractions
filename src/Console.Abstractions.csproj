@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>9.0</LangVersion>
+    <Title>Console.Abstractions</Title>
+    <Authors>Andrew Harward</Authors>
+    <Description>Abstraction which allows replacing static references to System.Console with an interface IConsole</Description>
+    <Copyright>Copyright 2021 (c) Andrew Harward. All rights reserved.</Copyright>
+    <RepositoryUrl>https://github.com/extremeandy/Console.Abstractions</RepositoryUrl>
+    <PackageTags>system console abstractions iconsole</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/extremeandy/Console.Abstractions</PackageProjectUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
